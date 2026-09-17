@@ -1,5 +1,13 @@
 {
   "version": "7",
   "dialect": "postgresql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1789635468553,
+      "tag": "0000_gestion_de_notes_schema",
+      "breakpoints": true
+    }
+  ]
 }
