@@ -105,7 +105,7 @@ function CourseDetail() {
   const students = data?.students ?? [];
 
   return (
-    <AppShell subtitle={course?.code}>
+    <AppShell {...(course?.code ? { subtitle: course.code } : {})}>
       <Link
         to="/dashboard"
         className="mb-5 inline-block text-sm font-bold text-muted-foreground hover:text-foreground"
